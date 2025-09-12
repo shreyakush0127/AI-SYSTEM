@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter"
 export const meta=()=>([
     {title:'Resumind|Auth'},
-    {name:'description',content:'Loing into your account'},
+    {name:'description',content:'Loging into your account'},
 ])
 
 const auth = () => {

@@ -112,7 +112,7 @@ export const usePuterStore = create<PuterStore>((set, get) => {
         refreshUser: get().auth.refreshUser,
         checkAuthStatus: get().auth.checkAuthStatus,
         getUser: get().auth.getUser,
-      },
+      }, 
     });
   };
 
